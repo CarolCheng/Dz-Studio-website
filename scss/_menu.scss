@@ -1,0 +1,21 @@
+.nav-item {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 2rem;
+}
+
+.nav-items {
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-light {
+  background-color: #fff !important;
+}
+
+.navbar {
+  transition-duration: 0.3s;
+}

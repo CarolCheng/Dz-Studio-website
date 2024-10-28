@@ -1,0 +1,73 @@
+// css reset 自定義
+:root {
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Noto Sans TC', 'Poppins', sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  font-weight: bold;
+  text-wrap: balance;
+  word-wrap: break-word;
+  font-size: clamp(1.25rem, 2.5vw, 3rem);
+}
+
+p {
+  color: #313131;
+  text-wrap: pretty;
+  letter-spacing: 2px;
+  font-weight: 400 !important;
+  font-size: clamp(0.875rem, 2.2vw, 1rem);
+}
+
+a {
+  color: #F07216;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #808080;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  aspect-ratio: 16 / 10;
+}
+
+img,
+svg,
+figure {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+box-icon {
+  opacity: 1;
+  vertical-align: middle;
+}
+
+box-icon:hover {
+  opacity: 0.5;
+}
+
+.icons {
+  width: 48px;
+  height: 48px;
+}

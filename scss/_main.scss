@@ -1,0 +1,181 @@
+.gotop a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #808080;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.gotop a:hover {
+  color: #000;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.lines {
+  margin-left: 24px;
+  max-width: 50px;
+  height: 3px;
+  border: #333 3px solid;
+}
+
+.img-area img {
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
+  filter: grayscale(100);
+}
+
+
+.img-area img:hover {
+  filter: grayscale(0);
+}
+
+
+.nav-pills .nav-link.active {
+  background: transparent;
+  border-bottom: #333 solid 2px;
+  color: #000;
+}
+
+.nav-pills .nav-link {
+  color: #808080;
+  background: transparent;
+  border-bottom: transparent solid 2px;
+  transition: all 300ms;
+}
+
+.nav-items {
+  font-size: 1rem;
+  color: #808080;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:is(.works) h1 {
+  font-size: 3rem;
+}
+
+.smail-text {
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+.image-container {
+  position: relative;
+  display: no;
+  z-index: 100;
+}
+
+.video-container {
+  position: relative;
+
+  &:hover {
+    .port-desc {
+      color: #fff;
+      opacity: 1;
+    }
+
+    .video-box {
+      opacity: 1;
+    }
+  }
+}
+
+.video-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.port-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 100%;
+  min-height: 337px;
+  line-height: 337px;
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.contact p {
+  display: block;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.image-container:hover img {
+  filter: blur(2px);
+}
+
+.image-container:disabled .overlay {
+  opacity: 1;
+}
+
+.image-container:disabled img {
+  filter: blur(2px);
+}
+
+.tz {
+  font-weight: 900;
+  color: #F07216;
+}
+
+
+.tf {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  letter-spacing: 5px;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+.footer-logo img {
+  max-width: 80px;
+}
+
+.aspect {
+  aspect-ratio: 3 / 4;
+}
